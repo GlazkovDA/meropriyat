@@ -20,7 +20,6 @@ a {
   display: flex;  
   background-color: rgb(255, 115, 0);
   color: white;
-  
 }
 .nav{
   font-size: 10px;
@@ -69,13 +68,6 @@ a {
 }
 .candidate input[type="submit"] {
   font-size: 30px;
-}
-.info {
-  display: flex;
-}
-.info img {
-  width: 400px;
-  border-radius: 20%;
 }
 body{
   height: 100%;
