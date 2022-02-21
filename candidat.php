@@ -10,13 +10,6 @@
 </head>
 
 <body>
-    
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br><br>
     <?php
     $id = $_GET['id'];
@@ -56,15 +49,7 @@
 	color: lightgrey;
 	text-shadow: 1px 1px #bbb;
 }
-.rating-result > span:before {
-	content: '★';
-}
-.rating-result > span.active {
-	color: gold;
-	text-shadow: 1px 1px #c60;
-}
-    </style>
-    
+    </style>  
 </body>
 <footer>
                 </footer>

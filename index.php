@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Учителя</title>
+    <title>Мероприятия</title>
 </head>
 
 <body>
@@ -18,10 +18,6 @@
     <br>
     <br>
     <br>
-    <br><br>
-
-
-   <br>
     <div class="candidates">
         <div class="container">
             <div class="candidates__inner">
@@ -48,12 +44,7 @@
             </div>
         </div>
     </div>
-   
-   
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
-<footer>
-    Глазков Д.А
-                </footer>
 </html>
