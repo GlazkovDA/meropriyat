@@ -8,15 +8,18 @@
     <link rel="stylesheet" href="style.css">
     <title>Мероприятия</title>
 </head>
-
 <body>
-    <br><br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
     <?php
     $id = $_GET['id'];
     $mysql = new mysqli('localhost', 'root', '', 'prepod');
     $sql = "SELECT `fio`, `about`, `img`, `votes` FROM `merop` WHERE `id`='$id'";
     $candidate = $mysql->query($sql)->fetch_assoc();
-   
     ?>
     <main>
         <div class="container">
@@ -49,8 +52,9 @@
 	color: lightgrey;
 	text-shadow: 1px 1px #bbb;
 }
-    </style>  
+.rating-result > span:before {
+	content: '★';
+}
+    </style>
 </body>
-<footer>
-                </footer>
 </html>

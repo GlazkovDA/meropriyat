@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,14 +9,13 @@
 </head>
 
 <body>
-
-
-
     <br>
     <br>
     <br>
     <br>
     <br>
+    <br>
+   <br>
     <div class="candidates">
         <div class="container">
             <div class="candidates__inner">
@@ -27,7 +25,7 @@
                 $candidates = $mysql->query($sql);
                 while ($candidate = $candidates->fetch_assoc()) :
                 ?>
-                    <div class="candidate">
+                <div class="candidate">
                         <form action="vote.php" method="POST" id="<?php echo $candidate['id'] ?>">
                             <a href="candidat.php?id=<?php echo $candidate['id'] ?>">
                                 <img src="<?php echo $candidate['img'] ?>" alt="">
@@ -43,7 +41,7 @@
                 ?>
             </div>
         </div>
-    </div>
+                </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
