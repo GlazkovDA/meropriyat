@@ -9,12 +9,6 @@
     <title>Мероприятия</title>
 </head>
 <body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <?php
     $id = $_GET['id'];
     $mysql = new mysqli('localhost', 'root', '', 'prepod');
@@ -32,18 +26,7 @@
             </div>
         </div>
     </main>
-    <div class="rating-result">
-	<span class="active"></span>	
-	<span class="active"></span>    
-	<span class="active"></span>  
-	<span></span>    
-	<span></span>
-</div>
 <style>
-    .rating-result {
-	width: 265px;
-	margin: 0 auto;
-}
 .rating-result span {
 	padding: 0;
 	font-size: 32px;

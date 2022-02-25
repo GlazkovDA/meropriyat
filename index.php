@@ -9,13 +9,6 @@
 </head>
 
 <body>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-   <br>
     <div class="candidates">
         <div class="container">
             <div class="candidates__inner">
@@ -34,8 +27,6 @@
                             </a>
                           
                         </form>
-
-
                     </div>
                 <?php endwhile;
                 ?>
