@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $('form').submit(function(e){
-        
         var id=$(this).attr('id');
        $.ajax({
            url:$(this).attr('action'),

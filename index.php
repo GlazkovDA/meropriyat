@@ -7,7 +7,6 @@
     <link rel="stylesheet" href="style.css">
     <title>Мероприятия</title>
 </head>
-
 <body>
     <div class="candidates">
         <div class="container">
@@ -16,8 +15,7 @@
                 $mysql = new mysqli('localhost', 'root', '', 'prepod');
                 $sql = "SELECT `id`, `fio`, `about`, `img`, `votes` FROM `merop`";
                 $candidates = $mysql->query($sql);
-                while ($candidate = $candidates->fetch_assoc()) :
-                ?>
+                while ($candidate = $candidates->fetch_assoc()) :?>
                 <div class="candidate">
                         <form action="vote.php" method="POST" id="<?php echo $candidate['id'] ?>">
                             <a href="candidat.php?id=<?php echo $candidate['id'] ?>">

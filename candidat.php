@@ -26,18 +26,5 @@
             </div>
         </div>
     </main>
-<style>
-.rating-result span {
-	padding: 0;
-	font-size: 32px;
-	margin: 0 3px;
-	line-height: 1;
-	color: lightgrey;
-	text-shadow: 1px 1px #bbb;
-}
-.rating-result > span:before {
-	content: '★';
-}
-    </style>
 </body>
 </html>
